@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('test') {
       steps {
-        sh 'python3 celcius.py'
+        sh 'python3 class.py'
       }
     }
     stage('deliver') {
