@@ -3,7 +3,8 @@ pipeline {
   stages {
     stage('test') {
       steps {
-        sh 'python4.py'
+        sh '''python3 
+python4.py'''
       }
     }
     stage('deliver') {
