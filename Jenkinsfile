@@ -8,7 +8,7 @@ pipeline {
     }
     stage('deliver') {
       steps {
-        echo 'done rosen'
+        echo 'done uggla'
       }
     }
   }
